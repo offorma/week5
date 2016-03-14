@@ -10,8 +10,8 @@
         <body>
         <form action="login.php" method = "POST" class ="col-sm-6 col-sm-offset-3">
             <div class="form-group">
-                <label for="InputEmail1">Email address</label>
-                <input type="email" name="email" class="form-control" id="InputEmail1" placeholder="Email">
+                <label for="Inputusername">Username</label>
+                <input type="text" name="username" class="form-control" id="Inputusername" placeholder="Username">
             </div>
             <div class="form-group">
                 <label for="InputPassword1">Password</label>
