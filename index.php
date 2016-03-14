@@ -8,7 +8,7 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         </head>
         <body>
-        <form action="">
+        <form action="" col-sm-6 col-sm-offset-3>
             <div class="form-group">
                 <label for="InputEmail1">Email address</label>
                 <input type="email" name="email" class="form-control" id="InputEmail1" placeholder="Email">
