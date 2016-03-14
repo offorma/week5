@@ -7,7 +7,7 @@
  */
 include("server.php");
 
-if(empty($_PST["username"]) || empty($_POST["password"])){
+if(empty($_POST["username"]) || empty($_POST["password"])){
     echo "Both fields are required.";
 }else{
     $username = $_POST["username"];

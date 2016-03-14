@@ -28,10 +28,3 @@
 
 
 
-<?php
-/**
- * Created by PhpStorm.
- * User: 1514414
- * Date: 14/03/2016
- * Time: 10:29
- */
