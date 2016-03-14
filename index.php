@@ -19,6 +19,8 @@
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
         </form>
+        <div class="error"><?php echo $error;?><?php echo $username; echo
+            $password;?></div>
         </body>
     </html>
 </DOCTYPE>
