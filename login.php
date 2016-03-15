@@ -14,8 +14,8 @@ else{
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    $sql="SELECT uid FROM users WHERE username='$username' and password='$password'";
-    $result=mysqli_query($db,$sql);
+    $sql="SELECT * FROM users WHERE username='$username' and password='$password'";
+    $result=mysqli_query($DB,$sql);
 
     if(mysqli_num_rows($result) == 1) {
         header("location: index.php"); // Redirecting To another Page
