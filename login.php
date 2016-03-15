@@ -18,7 +18,7 @@ else{
     $result=mysqli_query($DB,$sql);
 
     if(mysqli_num_rows($result) == 1) {
-        header("location: index.php"); // Redirecting To another Page
+        header("location: success.php"); // Redirecting To another Page
     }
     else {
         echo "Still Incorrect username or password.";
